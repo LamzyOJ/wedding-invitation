@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(255, 202, 210);
+  padding-bottom: 40px;
+}
+
+.general {
+  background-image: url(images/jane\ and\ john.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 30px;
+}
+
+b {
+  font-size: 30px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 64px 16px;
+  margin: auto;
+  max-width: 980px;
+}
+
+.erm {
+  font-size: 36px;
+  text-align: center;
+  color: #757575;
+}
+
+.field {
+  width: 100%;
+}
+
+.know {
+  line-height: 2;
+  font-size: 20px;
+}
+
+button {
+  background-color: black;
+  color: #fff;
+  padding: 13px;
+  width: fit-content;
+  height: 60px;
+  font-size: 18px;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.invitation {
+  background-image: url(images/flowers.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 97vh;
+  color: #fff;
+  gap: 50px;
+}
+
+.wedding {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 64px 16px;
+  margin: auto;
+  max-width: 980px;
+}
+
+.erg {
+  font-size: 36px;
+  text-align: center;
+  color: #757575;
+}
+
+.about {
+  display: flex;
+}
+
+.when {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  text-align: center;
+  width: 50%;
+}
+
+.where {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  text-align: center;
+  width: 50%;
+}
+
+.asin {
+  font-size: 30px;
+  text-align: center;
+}
+
+.innit {
+  font-size: 15px;
+}
+
+.rsvp {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: center;
+  justify-content: center;
+  padding: 64px;
+}
+
+.hope {
+  font-size: 36px;
+}
+
+.kindly {
+  font-size: 18px;
+}
+
+.respondez {
+  font-size: 24px;
+  padding: 8px 60px;
+  background-color: #f44336;
+  color: #fff;
+  border-color: #f44336;
+}
+
+.respondez:hover {
+  background-color: #ccc;
+  cursor: pointer;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  font-size: 15px;
+  padding: 16px 0px;
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0.75;
+  padding: 8px 16px;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+}
+
+.mint {
+  width: 25%;
+  color: black;
+  padding: 8px 16px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  width: 25%;
+  color: black;
+  padding: 8px 16px;
+  font-size: 15px;
+}
+
+.sticky {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #ccc;
+  cursor: pointer;
+  color: black;
+  border-color: #ccc;
+}
+
+@media screen and (max-width: 450px) {
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 271px) {
+  .married {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar {
+    visibility: hidden;
+  }
+}
